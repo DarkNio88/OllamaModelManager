@@ -33,7 +33,7 @@ A web-based management interface for Ollama endpoints, allowing you to manage an
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/d3v0ps-cloud/OllamaModelManager.git
+git clone https://github.com/DarkNio88/OllamaModelManager.git
 ```
 
 ```bash
@@ -47,7 +47,7 @@ npm install
 
 3. Create a `.env` file in the root directory and configure your Ollama endpoints:
 ```bash
-OLLAMA_ENDPOINTS=http://localhost:11434,https://ollama1.remote.net,https://ollama2.remote.net
+OLLAMA_ENDPOINTS="http://localhost:11434,https://remote.sito.com/_apikey" _ e il divisore per la apikey
 ```
 
 4. Start the application:
@@ -70,7 +70,7 @@ The application will be available at `http://localhost:3000`
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/d3v0ps-cloud/OllamaModelManager.git
+git clone https://github.com/DarkNio88/OllamaModelManager.git
 ```
 
 ```bash
