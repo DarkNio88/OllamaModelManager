@@ -47,7 +47,7 @@ npm install
 
 3. Create a `.env` file in the root directory and configure your Ollama endpoints:
 ```bash
-OLLAMA_ENDPOINTS=http://localhost:11434,https://ollama1.remote.net,https://ollama2.remote.net
+OLLAMA_ENDPOINTS="http://localhost:11434,https://remote.sito.com/_apikey" _ e il divisore per la apikey
 ```
 
 4. Start the application:
