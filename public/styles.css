@@ -289,7 +289,7 @@ h2 {
 }
 
 .name-col { flex: 2; min-width: 150px; }
-.size-col { width: 100px; }
+.size-col { width: 150px; }
 .param-col { width: 80px; }
 .family-col { width: 100px; }
 .format-col { width: 80px; }
