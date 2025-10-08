@@ -45,17 +45,17 @@ app.use(cors({
 app.use(express.json());
 
 // Serve swagger.json with explicit route
-app.get('/swagger.json', async (req, res) => {
-    try {
-        const swaggerPath = join(process.cwd(), 'public', 'swagger.json');
-        const swaggerContent = await readFile(swaggerPath, 'utf8');
-        res.setHeader('Content-Type', 'application/json');
-        res.send(swaggerContent);
-    } catch (error) {
-        console.error('Error serving swagger.json:', error);
-        res.status(500).send({ error: 'Failed to load swagger.json' });
-    }
-});
+// app.get('/swagger.json', async (req, res) => {
+    // try {
+        // const swaggerPath = join(process.cwd(), 'public', 'swagger.json');
+        // const swaggerContent = await readFile(swaggerPath, 'utf8');
+        // res.setHeader('Content-Type', 'application/json');
+        // res.send(swaggerContent);
+    // } catch (error) {
+        // console.error('Error serving swagger.json:', error);
+        // res.status(500).send({ error: 'Failed to load swagger.json' });
+    // }
+// });
 
 // Serve static files after routes
 app.use(express.static('public'));
